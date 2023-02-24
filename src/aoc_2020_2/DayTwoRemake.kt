@@ -4,7 +4,6 @@ import java.io.File
 /*
     https://todd.ginsberg.com/post/advent-of-code/2020/day2/
     https://github.com/tginsberg/advent-2020-kotlin/blob/main/src/main/kotlin/com/ginsberg/advent2020/Day02.kt
-
  */
 data class Password2(val range: IntRange, val letterInPw: Char, val password: String) {
 

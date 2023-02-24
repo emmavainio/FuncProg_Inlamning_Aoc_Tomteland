@@ -52,7 +52,7 @@ fun main() {
     val passports = File("src/aoc_2020_4/puzzleInput.txt")
         .readText()
         .trim()
-        .split("\n\n", "\r\n\r\n") //"\n\n" linux/ios "\r\n\r\n" windows
+        .split("\n\n", "\r\n\r\n") // Ny rad: "\n\n" linux/ios "\r\n\r\n" windows
         .map { Passport.createPassportFromString(it) }
 
     println(getValidPassportCountPart1Ver2(passports))

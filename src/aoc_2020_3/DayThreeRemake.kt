@@ -2,8 +2,6 @@ package aoc_2020_3
 
 /*
     https://kotlinlang.org/docs/advent-of-code.html#day-3-toboggan-trajectory
-    Tyckte att denna lösning hade lite samma tänk som min ursprungliga lösning men ganska mycket mer effektiv.
-
  */
 fun countTreesOnSlope(input: List<String>, vector:Pair<Int, Int>): Int {
     val (right,down) = vector
